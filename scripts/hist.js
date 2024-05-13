@@ -32,6 +32,7 @@ function showHistory() {
     history.style.display = 'block';
 }
 
+//show history event listner
 historybutton.addEventListener('click', showHistory);
 
 function clearAll(){
